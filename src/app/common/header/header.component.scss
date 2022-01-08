@@ -1,0 +1,9 @@
+.container {
+  background: aqua;
+  text-align: right;
+  padding: 10px;
+
+  &:hover {
+    color: coral;
+  }
+}

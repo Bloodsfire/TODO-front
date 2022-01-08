@@ -533,7 +533,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "prlw",
+            "prefix": "app",
             "style": "kebab-case"
           }
         ],
@@ -543,7 +543,7 @@
           "error",
           {
             "type": ["attribute", "element"],
-            "prefix": "prlw",
+            "prefix": "app",
             "style": "kebab-case"
           }
         ],
@@ -576,8 +576,7 @@
     {
       "files": ["*.spec.ts"],
       "env": {
-        "jest/globals": true,
-        "cypress/globals": true
+        "jest/globals": true
       },
       "rules": {
         "@typescript-eslint/init-declarations": "off",
@@ -598,8 +597,7 @@
     {
       "files": ["cypress/**/*.ts"],
       "env": {
-        "jest/globals": true,
-        "cypress/globals": true
+        "jest/globals": true
       },
       "rules": {
         "no-undef": "off"

@@ -1,0 +1,26 @@
+//:host {
+//  position: fixed;
+//  top: var(--prlw-size-viewport-padding);
+//  right: var(--prlw-size-viewport-padding);
+//  bottom: var(--prlw-size-viewport-padding);
+//  left: var(--prlw-size-viewport-padding);
+//  display: block;
+//}
+//
+//.header {
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  left: 0;
+//  overflow: hidden;
+//  height: var(--prlw-size-header-height);
+//}
+//
+//.main {
+//  position: absolute;
+//  top: calc(var(--prlw-size-header-height) + var(--prlw-size-panes-gap));
+//  right: 0;
+//  bottom: 0;
+//  left: calc(var(--prlw-size-sidebar-width) + var(--prlw-size-panes-gap));
+//  overflow: hidden;
+//}
