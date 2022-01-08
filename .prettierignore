@@ -1,0 +1,10 @@
+/dist
+/cache
+/coverage
+node_modules/
+.vscode/
+.idea/
+.vscode/
+.prettierignore
+package-lock.json
+package.json
